@@ -1,0 +1,11 @@
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+[assembly: AssemblyVersion("$version")]
+[assembly: AssemblyFileVersion("$version")]
+[assembly: AssemblyDescription(@"$summary")]
+
+
+[assembly: InternalsVisibleTo("ArdinGetGitInfoTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100aff9e7e09f7b966acb4c3001ce28d441c0556e81614c99af649cf72cb4c8b3af5842d12d0ca982c259e930424e3353039ebd421d874c08a90ed7fb2c3f740adaff77997f459ed8819130c396ea3980034218fd6825400565c986f028dc3c3e1a92449818633456ebbd786d758620f1f524a126f6521d0177dba25650b4605bd5")]
+

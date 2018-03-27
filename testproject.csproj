@@ -1,0 +1,129 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7291A808-C15E-41F5-B590-06F25C6EEEF5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>testproject</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="alma.txt" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\ArdinGetGitInfo.exe" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\ArdinGetGitInfo.pdb" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\LibGit2Sharp.dll" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\LibGit2Sharp.pdb" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\lib\win32\x64\git2-dd2d538.dll" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\lib\win32\x64\git2-dd2d538.pdb" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\lib\win32\x86\git2-dd2d538.dll" />
+    <Content Include="ArdinTools\ArdinGetGitInfo\lib\win32\x86\git2-dd2d538.pdb" />
+    <Content Include="körte.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LocalAssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\heads\testbr" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\logs\refs\stash" />
+    <None Include=".git\objects\13\5a6de5a63890262d5d5a71a89b744b0da810cc" />
+    <None Include=".git\objects\22\7ff118216f06dc0ede9f033bbefddbbd0c1a7a" />
+    <None Include=".git\objects\22\cdd5c4edcbf078898f4b0b1261727f622a50f6" />
+    <None Include=".git\objects\45\2953193bd31e11fe7bd50c6104c0a00a716001" />
+    <None Include=".git\objects\4d\62139a0e9fb6da5c5384894c0be2796d26271a" />
+    <None Include=".git\objects\54\2a4f031bb718cfe327845059a5fb042c826d3c" />
+    <None Include=".git\objects\55\7c4fe833b1b80abee0e74e8ecc42f6ab5b1325" />
+    <None Include=".git\objects\5f\709a151a4ccc8546caa0e0840106dae92711bc" />
+    <None Include=".git\objects\71\ed1a4c6b419597ab177ed0f440d9fb1289245e" />
+    <None Include=".git\objects\87\09f804f2edcc14eb99495ecdb91ab0373de799" />
+    <None Include=".git\objects\87\577b6042157b9a6581d1b9fec7743413aceb2d" />
+    <None Include=".git\objects\8a\1218a1024a212bb3db30becd860315f9f3ac52" />
+    <None Include=".git\objects\93\96301c76730be1b6bdb4b7c5907577caf9cf32" />
+    <None Include=".git\objects\9c\7288ffdc4eb63d49d21d27bfb557d2924ff940" />
+    <None Include=".git\objects\c4\7213d3dab0cb3c14e9bdf20b529b024036ab7d" />
+    <None Include=".git\objects\d7\808a679a6b670561b1badddccb2cf8aaead6fd" />
+    <None Include=".git\objects\d8\79c354636c8e2d4885c7eddefc67e43da4d985" />
+    <None Include=".git\objects\dc\31acc70a8ec582cf06bc3bb89ced273f5397e0" />
+    <None Include=".git\objects\e2\8097c1ab731542823c7e770ca948c7f41d4334" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\ee\8bffa2c3165b3c48602995f537d0bb8a5954a1" />
+    <None Include=".git\objects\f8\1df792b396db0c9536afa6b621cfc284d116ec" />
+    <None Include=".git\objects\fd\d0ffe31582056888797a51edda7b29b35af363" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\heads\testbr" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".git\refs\stash" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\testproject\v15\.suo" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="ArdinTools\ArdinGetGitInfo\ArdinGetGitInfo.exe.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>$(ProjectDir)ArdinTools\ArdinGetGitInfo\ArdinGetGitInfo.exe "$(SolutionDir)" -p "release([0-9]+)|0|1.2.{0}.0" -r "$(ProjectDir)svn_LocalAssemblyInfo.cs=$(ProjectDir)LocalAssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+</Project>
